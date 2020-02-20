@@ -1,0 +1,75 @@
+
+header{
+	color:black;
+}
+
+
+@keyframes animation_test{
+	from{
+		background-color: #7D82B8;
+	}
+	to{
+		background-color: #99A1A6;
+	}
+}
+html, body{
+	background-color: #020102;
+}
+
+.titulos{
+	color: black;
+	font-family: fantasy;
+}
+
+section,footer, aside,article{
+	background-color: #1B2F33;
+	border: 3px solid rgb(255, 122 ,10);
+	margin: 1rem;
+	border-radius: 10px;
+	padding: 1rem;
+
+}
+.coloresxd{
+	border: 3px solid #4E5166;
+	margin: 1rem;
+	border-radius: 10px;
+	width: 97%;
+	background-color: #F9E784;
+	color: white;
+	text-align: center;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	animation-name: animation_test;
+	animation-duration: 2s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+
+}
+
+.texto{
+	font-family: Arial,sans-serif;
+}
+
+.maincontainer{
+	border: 3px solid rgb(255, 122, 10);
+	border-radius: 10px;
+	margin: 1rem;
+	background-color: #654F6F;
+	height: 2250px;
+}
+
+.sectiont{
+	text-align: center;
+	font-family: sans-serif;
+
+}
+
+article, aside{
+	color: black;
+	width:40%;
+	display: inline-block;
+	height: 1000px;
+	background-color: #143642;
+}
